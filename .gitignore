@@ -1,0 +1,33 @@
+# 编译产物
+*.o
+*.ko
+*.mod
+*.mod.c
+.*.cmd
+Module.symvers
+modules.order
+app
+*_app
+
+# 内核模块构建残留
+.tmp_versions/
+
+# 交叉编译/调试
+*.d
+*.map
+*.elf
+*.bin
+*.hex
+
+# 编辑器与系统
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+.DS_Store
+
+# 第三方依赖与打包文件（体积大，不入库）
+lib/
+*.tar.gz
+*.zip
